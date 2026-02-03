@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8081
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
@@ -14,3 +14,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+# DEBUG SQL & PARAMETERS
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
