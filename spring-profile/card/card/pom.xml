@@ -115,7 +115,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>yuruyury/${project.artifactId}:microservice</name>
+                        <name>yuruyury/${project.artifactId}:spring-profile</name>
                     </image>
                     <excludes>
                         <exclude>
