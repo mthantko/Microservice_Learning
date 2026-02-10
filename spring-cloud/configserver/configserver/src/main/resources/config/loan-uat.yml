@@ -1,0 +1,11 @@
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "test uat"
+  contactDetails:
+    name: "MTK"
+    email: "phoenix@gmail.com"
+  onCallSupport:
+    -12345679
