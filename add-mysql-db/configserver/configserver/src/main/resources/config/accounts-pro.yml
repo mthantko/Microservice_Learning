@@ -1,0 +1,11 @@
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "accounts pro"
+  contactDetails:
+    name: "MTK"
+    email: "phoenix@gmail.com"
+  onCallSupport:
+    -12345679

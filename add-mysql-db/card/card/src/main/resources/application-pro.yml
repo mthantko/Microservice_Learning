@@ -1,0 +1,11 @@
+
+spring:
+  config:
+    activate:
+      on-profile: "pro"
+
+build:
+  version: "4.0"
+
+accounts:
+  message: "test uat"

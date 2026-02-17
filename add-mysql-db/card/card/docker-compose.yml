@@ -1,0 +1,10 @@
+services:
+  card:
+    image: "yuruyury/card:microservice"
+    container_name: card-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
