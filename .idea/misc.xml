@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/spring-cloud/loan/loan/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/accounts/microservice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/configserver/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver-microservices/eurekaserver/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver-microservices/eurekaserver/pom.xml" />
       </list>
     </option>
   </component>

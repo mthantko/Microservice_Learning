@@ -1,0 +1,11 @@
+
+build:
+  version: "4.0"
+
+accounts:
+  message: "test qa"
+  contactDetails:
+    name: "MTK"
+    email: "phoenix@gmail.com"
+  onCallSupport:
+    -12345679

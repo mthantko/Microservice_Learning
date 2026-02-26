@@ -1,0 +1,22 @@
+services:
+  network-deploy-services:
+    networks:
+      - mtkbank
+  microservices-base-config:
+    extends:
+      services: network-deploy-service
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    environment:
+      SPRING_RABBITMQ_HOST: "rabbit"
+  microservices-configservers-config:
+    extends:
+      services: microservices-base-config
+    depend-on:
+      configservers:
+        condition: service_healthy
+      environment:
+        SPRING_PROFILES_ACTIVE: prod
+        SPRING_CONFIG_IMPORT: add config servers
